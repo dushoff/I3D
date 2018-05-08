@@ -23,6 +23,8 @@ $(ms)/Makefile:
 	git submodule update $(ms) 
 	touch $@
 
+Sources += .ignore
+
 # -include $(ms)/perl.def
 # -include $(ms)/newtalk.def
 # -include $(ms)/repos.def
